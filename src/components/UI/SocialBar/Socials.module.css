@@ -1,0 +1,27 @@
+.Socials {
+    position: fixed; 
+    top: 50%; 
+    -webkit-transform: translateY(-50%); 
+    -ms-transform: translateY(-50%); 
+    transform: translateY(-50%); 
+    z-index: 90;
+}
+
+.Socials a {
+    display: block; 
+    text-align: center; 
+    padding: 16px; 
+    transition: all 0.3 ease; 
+    color: white; 
+    font-size: 20px; 
+}
+
+.LinkedIn {
+    background: #007bb5; 
+    color: white; 
+}
+
+.Github {
+    background: #6e5494; 
+    color: white; 
+}

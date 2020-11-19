@@ -1,6 +1,7 @@
 import React from 'react'; 
 import { Route, withRouter, Switch, Redirect } from 'react-router-dom'; 
 
+import Socials from './components/UI/SocialBar/Socials';
 import Layout from '../src/hoc/Layout'; 
 import Home from '../src/components/Pages/Home/Home'; 
 import Projects from '../src/components/Pages/Projects/Projects'; 
@@ -18,6 +19,7 @@ const App = () => {
   return (
     <div className={classes.App}>
       <Layout>
+          <Socials></Socials>
           {routes}
       </Layout>
     </div>
