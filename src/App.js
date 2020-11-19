@@ -1,10 +1,10 @@
 import React from 'react'; 
 import { Route, withRouter, Switch, Redirect } from 'react-router-dom'; 
-import './App.css';
 
 import Layout from '../src/hoc/Layout'; 
 import Home from '../src/components/Pages/Home/Home'; 
 import Projects from '../src/components/Pages/Projects/Projects'; 
+import classes from './App.module.css'; 
 
 const App = () => {
   let routes = (
@@ -16,9 +16,9 @@ const App = () => {
   ); 
 
   return (
-    <div className="App">
+    <div className={classes.App}>
       <Layout>
-        {routes}
+          {routes}
       </Layout>
     </div>
   );
