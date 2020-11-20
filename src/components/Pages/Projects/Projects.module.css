@@ -1,8 +1,16 @@
-.Container {
+.Cards {
+    display: grid; 
     position: absolute; 
     transform: translate(-50%, -50%); 
-    top: 40%;
+    top: 50%;
     left: 50%; 
+    margin: 20px auto; 
+    width: 1200px; 
+    height: 600px; 
+    grid-template-columns: 600px 600px; 
+    grid-row: auto auto; 
+    grid-column-gap: 20px; 
+    grid-row-gap: 20px; 
 }
 
 .Scanlines {
@@ -35,5 +43,11 @@
     }
     to {
         transform: translate(0px, 2%); 
+    }
+}
+
+@media (max-width: 500px) {
+    .Cards {
+        display: inline-block; 
     }
 }
