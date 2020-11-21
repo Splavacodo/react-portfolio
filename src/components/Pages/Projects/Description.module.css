@@ -1,0 +1,32 @@
+.Description img{
+    max-width: 70%; 
+    max-height: 70%; 
+}
+
+.Right {
+    display: flex; 
+    width: 760px; 
+    height: 390px; 
+}
+
+.Left {
+    position: absolute; 
+    text-align: left; 
+    display: block;
+    width: 400px; 
+    height: 390px; 
+    left: 64%; 
+}
+
+.Left h1 {
+    padding-left: 10px; 
+    margin: -10px; 
+    letter-spacing: 1px; 
+    color: white; 
+}
+
+.Left p {
+    color: #c2c2c2; 
+    font-size: 0.8em; 
+    letter-spacing: 1px; 
+}

@@ -1,13 +1,11 @@
 import React from 'react'; 
 
-import E from '../../../assets/images/0.png'; 
-import Button from '../Button/Button'; 
 import classes from './Card.module.css'; 
 
-const Card = () => (
+const Card = (props) => (
     <div className={classes.Card}>
-        <img className={classes.img} src={E} />
-        <Button btnType='CardButton'>View</Button>
+        <img className={classes.img} src={props.image} />
+        <button className={classes.button} onClick={props.clicked}>View</button>
     </div>
 ); 
 

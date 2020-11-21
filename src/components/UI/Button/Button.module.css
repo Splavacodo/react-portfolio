@@ -13,27 +13,9 @@
     font-size: 20px; 
 }
 
-.CardButton {
-    display: none; 
-    padding: 0.3em 1.2em; 
-    margin: 0 0.3em 0.3em 0; 
-    border-radius: 2em; 
-    box-sizing: border-box; 
-    text-decoration: none; 
-    font-weight: 300; 
-    color: #FFFFFF; 
-    background-color: #4eb5f1; 
-    text-align: center; 
-    position: absolute; 
-}
-
 .Button:hover {
     color: #000000; 
     background-color: #FFFFFF; 
-}
-
-.CardButton:hover {
-    background-color: #4095c6; 
 }
 
 @media all and (max-width: 30em) {

@@ -1,0 +1,18 @@
+.Modal {
+    position: fixed; 
+    background-color: #2e2e2e; 
+    width: 60%; 
+    border: 1px solid #000; 
+    left: 20%; 
+    top: 30%; 
+    box-sizing: border-box; 
+    display: flex; 
+    z-index: 100; 
+}
+
+@media (max-width: 600px) { 
+    .Modal { 
+        width: 500px; 
+        left: calc(50% - 250px); 
+    }
+}
