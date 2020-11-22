@@ -1,0 +1,95 @@
+.Description img{
+    max-width: 70%; 
+    max-height: 70%; 
+}
+
+.Right {
+    display: flex; 
+    width: 760px; 
+    height: 390px; 
+}
+
+.Left {
+    position: absolute; 
+    text-align: left; 
+    display: block;
+    width: 405px; 
+    height: 390px; 
+    left: 64%; 
+}
+
+.Left header{
+    text-align: right; 
+    color: #c2c2c2; 
+}
+
+.Left h1 {
+    padding-left: 10px; 
+    font-size: 40px; 
+    margin: -10px; 
+    letter-spacing: 1px; 
+    color: white; 
+}
+
+.Left h3 {
+    color: #c2c2c2; 
+}
+
+.Left .ToolContainer {
+    display: grid; 
+    margin-top: 15px; 
+    grid-template-columns: 50px 50px; 
+    grid-row: auto auto; 
+    grid-column-gap: 5px; 
+    grid-row-gap: 20px; 
+}
+
+.Left .Tool {
+    color: #c2c2c2; 
+    border: 1px solid #000; 
+    width: 50px; 
+    height: 23px; 
+    margin: 0; 
+    font-size: 13px; 
+    display: flex; 
+    justify-content: center;
+}
+
+.Left p {
+    color: #c2c2c2; 
+    font-size: 15px; 
+    letter-spacing: 1px; 
+    margin: 0; 
+}
+
+.Left .Desc {
+    max-width: 380px; 
+    max-height: 130px; 
+    overflow-y: scroll; 
+}
+
+.Left .ButtonContainer {
+    display: grid; 
+    margin-top: 15px; 
+    grid-template-columns: 100px 100px; 
+    grid-column-gap: 5px; 
+    grid-row-gap: 20px; 
+}
+
+
+.Left a {
+    display: block; 
+    color: white; 
+    text-decoration: none; 
+}
+
+.Left button {
+    letter-spacing: 1px; 
+    display: flex; 
+    font-size: 15px; 
+    justify-content: center; 
+}
+
+.Left i {
+    padding-right: 3px; 
+}

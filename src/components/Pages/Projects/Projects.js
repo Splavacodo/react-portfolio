@@ -1,7 +1,7 @@
 import React, { useState } from 'react'; 
 
 import E from '../../../assets/images/0.png'; 
-import Description from './Description'; 
+import EDesc from './E'; 
 import Card from '../../UI/ProjectCard/Card'; 
 import Modal from '../../UI/Modal/Modal'; 
 import classes from './Projects.module.css'; 
@@ -20,7 +20,7 @@ const Projects = () => {
     return(
         <React.Fragment>
             <Modal show={showModal} modalClosed={closeHandler}>
-                <Description image={E}></Description>
+                <EDesc image={E} modalClosed={closeHandler}></EDesc>
             </Modal>
             <div className={classes.Cards}>
                 <Card clicked={openHandler} image={E}></Card>

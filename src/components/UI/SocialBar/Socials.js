@@ -10,6 +10,9 @@ const Socials = () => (
         <a target={'_blank'} rel='noreferrer' href='https://www.linkedin.com/in/jason-zamora-88956318a/' className={classes.LinkedIn}>
             <i className='fa fa-linkedin'></i>
         </a>
+        <a target={'_blank'} rel='noreferrer' href='https://www.linkedin.com/in/jason-zamora-88956318a/' className={classes.LinkedIn}>
+            <i className='fas fa-file-alt'></i>
+        </a>
     </div>
 ); 
 
