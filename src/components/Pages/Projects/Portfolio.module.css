@@ -5,7 +5,7 @@
 
 .Right {
     display: flex; 
-    width: 730px; 
+    width: 740px; 
     height: 390px; 
 }
 
@@ -15,6 +15,7 @@
     display: block;
     width: 405px; 
     height: 390px; 
+    padding-left: 10px; 
 }
 
 .Left header{
@@ -37,8 +38,7 @@
 .Left .ToolContainer {
     display: grid; 
     margin-top: 15px; 
-    grid-template-columns: 50px 50px; 
-    grid-row: auto auto; 
+    grid-template-columns: 60px 60px 60px 60px 60px; 
     grid-column-gap: 5px; 
     grid-row-gap: 20px; 
 }
@@ -46,7 +46,7 @@
 .Left .Tool {
     color: #c2c2c2; 
     border: 1px solid #000; 
-    width: 50px; 
+    width: 60px; 
     height: 23px; 
     margin: 0; 
     font-size: 13px; 

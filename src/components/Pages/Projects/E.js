@@ -3,10 +3,10 @@ import React from 'react';
 import Button from '../../UI/Button/Button'; 
 import classes from './E.module.css'; 
 
-const Description = (props) => (
+const E = (props) => (
     <React.Fragment>
     <div className={classes.Right}>
-        <img className={classes.img} src={props.image} alt="E"></img>
+        <img src={props.image} alt="E"></img>
     </div>
     <div className={classes.Left}>
         <header><i className="fa fa-times fa-lg" onClick={props.modalClosed}></i></header>
@@ -18,9 +18,9 @@ const Description = (props) => (
         </div>
         <h3>About</h3>
         <p className={classes.Desc}>E is meant to be a 2D platformer that focuses on a pressured playing experience. Afer the player progresses a bit, there is the introduction 
-            of mud which rises while the player travles upwards past obstacles. To pass the level the player must find a trophy which is included at the end of each level. I learned 
-            how to make each level using Unity's tilemap feature as well as slice 3rd party spritesheets. E also contains pickups for the player to collect which will add up to a total score. E features enemies which the player
-            is meant to maneuvor around and also a variety of hazards which the player can lose lives from. All the code was done in C# utilizing the Unity game engine. 
+            of mud which rises while the player travles upwards past obstacles. To pass the level the player must find a trophy which is included at the end of each level. I used 
+            Unity's tilemap feature to make each level in combination with a 3rd party spritesheet. E features enemies which the player is meant to maneuvor around and also a variety of hazards which the player can lose lives from. All the code was done 
+            in C# utilizing the Unity game engine. 
         </p>
         <div className={classes.ButtonContainer}>
             <a target={'_blank'} rel='noreferrer' href='https://pixelfrog-store.itch.io/pixel-adventure-1'><Button><i className="fa fa-eye fa-sm"></i>Demo</Button></a>
@@ -30,4 +30,4 @@ const Description = (props) => (
     </React.Fragment>
 ); 
 
-export default Description; 
+export default E; 

@@ -1,6 +1,7 @@
 import React from 'react'; 
 
 import classes from './Socials.module.css'; 
+import resume from '../../../assets/files/tResume.pdf'; 
 
 const Socials = () => (
     <div className={classes.Socials}>
@@ -9,9 +10,9 @@ const Socials = () => (
         </a>
         <a target={'_blank'} rel='noreferrer' href='https://www.linkedin.com/in/jason-zamora-88956318a/' className={classes.LinkedIn}>
             <i className='fa fa-linkedin'></i>
-        </a>
-        <a target={'_blank'} rel='noreferrer' href='https://www.linkedin.com/in/jason-zamora-88956318a/' className={classes.LinkedIn}>
-            <i className='fas fa-file-alt'></i>
+        </a> 
+        <a rel='noreferrer' href={resume} className={classes.Resume} download>
+            <i className="lni lni-download"></i>
         </a>
     </div>
 ); 
