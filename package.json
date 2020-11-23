@@ -1,8 +1,8 @@
 {
-  "homepage": "https://Splavacodo.github.io/react-portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Splavacodo.github.io/react-portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.1.2",
@@ -15,10 +15,10 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "predeploy": "npm run build", 
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
