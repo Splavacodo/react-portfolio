@@ -1,5 +1,5 @@
 import React from 'react'; 
-import { Route, withRouter, Switch, Redirect } from 'react-router-dom'; 
+import { Route, withRouter, Switch } from 'react-router-dom'; 
 
 import Socials from './components/UI/SocialBar/Socials';
 import Layout from '../src/hoc/Layout'; 
@@ -10,9 +10,8 @@ import classes from './App.module.css';
 const App = () => {
   let routes = (
     <Switch>
-      <Route path="/projects" component={Projects} />
-      <Route path="/" exact component={Home} />
-      <Redirect to="/" />
+      <Route path="/react-portfolio/projects" component={Projects} />
+      <Route path="/react-portfolio" exact component={Home} />
     </Switch>
   ); 
 

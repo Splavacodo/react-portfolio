@@ -5,8 +5,8 @@ import classes from './NavigationItems.module.css';
 
 const NavigationItems = () => (
     <ul className={classes.NavigationItems}>
-        <NavigationItem link='/' exact>Home</NavigationItem>
-        <NavigationItem link='/projects'>Projects</NavigationItem>
+        <NavigationItem link='/react-portfolio' exact>Home</NavigationItem>
+        <NavigationItem link='/react-portfolio/projects'>Projects</NavigationItem>
     </ul>
 ); 
 
