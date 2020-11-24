@@ -11,8 +11,8 @@ const App = () => {
   let routes = (
     <Switch>
       <Route path="/projects" component={Projects} />
-      <Route path="/home" exact component={Home} />
-      <Redirect to="/home" />
+      <Route path="/" exact component={Home} />
+      <Redirect to="/" />
     </Switch>
   ); 
 
