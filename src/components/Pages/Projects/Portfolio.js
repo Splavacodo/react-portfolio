@@ -25,7 +25,7 @@ const Portfolio = (props) => (
             portfolio should also be responsive to multiple devices. 
         </p>
         <div className={classes.ButtonContainer}>
-            <a target={'_blank'} rel='noreferrer' href='https://pixelfrog-store.itch.io/pixel-adventure-1'><Button><i className="fa fa-eye fa-sm"></i>Demo</Button></a>
+            <a target={'_blank'} rel='noreferrer' href='https://splavacodo.github.io/react-portfolio'><Button><i className="fa fa-eye fa-sm"></i>Demo</Button></a>
             <a target={'_blank'} rel='noreferrer' href='https://github.com/Splavacodo/react-portfolio'><Button><i className="fa fa-code"></i>Code</Button></a>
         </div>
     </div>

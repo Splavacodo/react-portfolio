@@ -21,6 +21,5 @@
 .NavigationItem a:hover, 
 .NavigationItem a:active, 
 .NavigationItem a.active {
-    border-bottom: 2px solid #FFFFFF; 
-    color: #5CF64A; 
+    border-bottom: 2px solid #23b5d3; 
 }

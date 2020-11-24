@@ -21,7 +21,7 @@ const Ecomm = (props) => (
         </div>
         <h3>About</h3>
         <p className={classes.Desc}> For this project I learned how to build the front-end and back-end of a web app. I worked with Node.js and Express to handle the backend and 
-        created a custom database to handle user credentials. To update the web app, there is a admin panel where the admin can manage there products. Before the admin panel can be
+        created a custom database to handle user credentials. To update the web app, there is a admin panel where the admin can manage their products. Before the admin panel can be
         accessed, there is a signin page for returning users and a signup for new users. The UI for the entire web app was done using Bulma.css and HTML with the aid of JavaScript.
         </p>
         <div className={classes.ButtonContainer}>

@@ -45,7 +45,7 @@
 
 .Left .Tool {
     color: #c2c2c2; 
-    border: 1px solid #000; 
+    border: 1px solid #23b5d3; 
     width: 50px; 
     height: 23px; 
     margin: 0; 
@@ -71,7 +71,7 @@
     display: grid; 
     margin-top: 15px; 
     grid-template-columns: 100px 100px; 
-    grid-column-gap: 5px; 
+    grid-column-gap: 10px; 
     grid-row-gap: 20px; 
 }
 
@@ -91,4 +91,45 @@
 
 .Left i {
     padding-right: 3px; 
+}
+
+@media (max-width: 1137px) {
+    .Left {
+        text-align: center; 
+        width: 632px; 
+    }
+
+    .Right {
+        width: auto; 
+    }
+
+    .Left .ToolContainer{
+        justify-content: center;
+    }
+
+    .Left .Desc {
+        max-width: none; 
+    }
+
+    .Left .ButtonContainer {
+        justify-content: center; 
+    }
+}
+
+@media (max-width: 400px) {
+    .Right {
+        height: 200px; 
+    }
+    .Left {
+        width: 365px; 
+    }
+
+    .Left .ToolContainer {
+        grid-template-columns: 60px 60px;
+    }
+
+    .Left .Tool { 
+        width: 60px; 
+        font-size: 10px; 
+    }
 }
