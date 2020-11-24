@@ -5,7 +5,7 @@ import classes from './Home.module.scss';
 
 const Home = (props) => {
     const projectRedirect = () => { 
-        props.history.push('/projects'); 
+        props.history.push('/react-portfolio/projects'); 
     }
 
     return (
