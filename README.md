@@ -1,1 +1,1 @@
-# react-portfolio
+SP React application. The components are styled using CSS modules. The home page makes use of Sass to make the animation possible and the projects page is made using vanilla CSS. This application should also be responsive to multiple devices. 
