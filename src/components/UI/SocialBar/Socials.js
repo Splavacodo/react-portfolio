@@ -11,9 +11,6 @@ const Socials = () => (
         <a target={'_blank'} rel='noreferrer' href='https://www.linkedin.com/in/jason-zamora-88956318a/' className={classes.LinkedIn}>
             <i className='fa fa-linkedin'></i>
         </a> 
-        <a rel='noreferrer' href={resume} className={classes.Resume} download>
-            <i className="lni lni-download"></i>
-        </a>
     </div>
 ); 
 
