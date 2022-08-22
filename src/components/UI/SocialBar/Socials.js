@@ -1,7 +1,7 @@
 import React from 'react'; 
 
 import classes from './Socials.module.css'; 
-import resume from '../../../assets/files/resume.pdf'; 
+import resume from '../../../assets/files/tResume.pdf'; 
 
 const Socials = () => (
     <div className={classes.Socials}>
